@@ -1,38 +1,97 @@
 .App {
-  text-align: center;
+ padding: 0;
+ width: 100%;
+ box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+ background: var(--nav);
+ display: flex;
+ flex-direction: row;
+ align-content: center;
+ justify-content: space-between;
+ align-items: center;
+ padding: 4px 30px;
+ box-shadow: 0px 6px 8px var(--shadow);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header svg {
+ fill: var(--txt);
+ width: 15px;
+ margin-left: 20px;
+ padding: 7px 12px;
+ border-radius: 50%;
+ cursor: pointer;
+ background: var(--btn);
+ opacity: 0.85;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header svg:hover {
+ opacity: 1;
 }
-
-.App-link {
-  color: #61dafb;
+.list {
+ columns: 4 225px;
+ column-gap: 30px;
+ padding: 10px 25px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#msg {
+ margin: 0 auto;
+ text-align: center;
+ position: absolute;
+ top: 45%;
+ left: 0;
+ right: 0;
+ color: var(--txt);
+}
+.note {
+ border-radius: 6px;
+ min-height: 240px;
+ height: 100%;
+ padding: 0;
+ box-sizing: border-box;
+ margin: 25px 0;
+ display: inline-block;
+ width: 100%;
+ background: #fff;
+ box-shadow: 4px 5px 8px 0px var(--shadow);
+}
+.close {
+ float: right;
+ margin: 6px 7px;
+ color: #fff;
+ background: #4e4e4e;
+ padding: 0px 15px;
+ border-radius: 3px;
+ cursor: pointer;
+}
+.titlebar {
+ background: #202020;
+ width: 100%;
+ height: 34px;
+ border-top-left-radius: 6px;
+ border-top-right-radius: 6px;
+}
+.close:hover {
+ background: #ff3c3c;
+}
+textarea {
+ outline: none;
+ border: none;
+ border-top: 6px double #000;
+ width: 100%;
+ resize: none;
+ margin: 0;
+ box-sizing: border-box;
+ padding: 15px;
+ background: #fff;
+ min-height: 205px;
+ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+ color: #000;
+ -webkit-font-smoothing: antialiased;
+ line-height: 1.7;
+ font-weight: 600;
+ font-size: 14px;
+ overflow: hidden;
+}
+@media screen and (max-width: 290px) {
+ header svg:nth-child(2) {
+  display: none;
+ }
 }
