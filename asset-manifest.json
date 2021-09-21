@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Notes-App/static/css/main.fe6ff37a.chunk.css",
+    "main.js": "/React-Notes-App/static/js/main.68878e44.chunk.js",
+    "main.js.map": "/React-Notes-App/static/js/main.68878e44.chunk.js.map",
+    "runtime-main.js": "/React-Notes-App/static/js/runtime-main.3941d9bc.js",
+    "runtime-main.js.map": "/React-Notes-App/static/js/runtime-main.3941d9bc.js.map",
+    "static/js/2.ff3bc9fe.chunk.js": "/React-Notes-App/static/js/2.ff3bc9fe.chunk.js",
+    "static/js/2.ff3bc9fe.chunk.js.map": "/React-Notes-App/static/js/2.ff3bc9fe.chunk.js.map",
+    "index.html": "/React-Notes-App/index.html",
+    "static/css/main.fe6ff37a.chunk.css.map": "/React-Notes-App/static/css/main.fe6ff37a.chunk.css.map",
+    "static/js/2.ff3bc9fe.chunk.js.LICENSE.txt": "/React-Notes-App/static/js/2.ff3bc9fe.chunk.js.LICENSE.txt",
+    "static/media/bright.bfeeddaf.svg": "/React-Notes-App/static/media/bright.bfeeddaf.svg",
+    "static/media/dark.8e14d2de.svg": "/React-Notes-App/static/media/dark.8e14d2de.svg",
+    "static/media/plus.9e5fd29d.svg": "/React-Notes-App/static/media/plus.9e5fd29d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3941d9bc.js",
+    "static/js/2.ff3bc9fe.chunk.js",
+    "static/css/main.fe6ff37a.chunk.css",
+    "static/js/main.68878e44.chunk.js"
+  ]
+}
